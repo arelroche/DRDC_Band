@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\arelr\\OneDrive\\Documents\\Louis Bluetooth\\wearables\\DRDC_Band\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\arelr\\OneDrive\\Documents\\Louis Bluetooth\\wearables\\DRDC_Band\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/Users/JollyRancher/Documents/projects/DRDC_Band/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/JollyRancher/Documents/projects/DRDC_Band/C:\\Users\\arelr\\OneDrive\\Documents\\Louis Bluetooth\\wearables\\DRDC_Band\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/JollyRancher/Documents/projects/DRDC_Band/C:\\Users\\arelr\\OneDrive\\Documents\\Louis Bluetooth\\wearables\\DRDC_Band\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

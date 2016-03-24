@@ -1,63 +1,63 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:2:1-32:12
 	xmlns:android
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:2:11-69
 	package
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:11:5-68
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:11:22-65
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:11:22-65
 uses-permission#com.microsoft.band.service.access.BIND_BAND_SERVICE
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:12:5-91
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:12:5-91
 	android:name
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:12:22-88
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:12:22-88
 application
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:15:5-30:19
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:15:5-30:19
 	android:label
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:17:9-45
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:17:9-45
 	android:theme
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.microsoft.band.sdk.heartrate.BandHeartRateAppActivity
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:20:9-29:20
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:20:9-29:20
 	android:screenOrientation
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:22:13-49
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:22:13-49
 	android:label
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:23:13-45
 	android:name
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:21:13-85
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:21:13-85
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\arelr\OneDrive\Documents\Louis Bluetooth\wearables\DRDC_Band\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from /Users/JollyRancher/Documents/projects/DRDC_Band/app/src/main/AndroidManifest.xml:27:27-74

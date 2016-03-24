@@ -95,11 +95,16 @@ public class BandHeartRateAppActivity extends Activity {
 			public void onClick(View v) {
 				txtStatus.setText("");
 
-                if(mConnectThread == null) {
-                    BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(moverioMAC);
-                    mConnectThread = new ConnectThread(device);
-                    mConnectThread.start();
-                }
+				try {
+					if (mConnectThread == null) {
+						BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(moverioMAC);
+						mConnectThread = new ConnectThread(device);
+						mConnectThread.start();
+					}
+				} catch (Exception e) {
+					Log.e(TAG, e.toString());
+				}
+
 				new HeartRateSubscriptionTask().execute();
 			}
 		});
@@ -135,8 +140,11 @@ public class BandHeartRateAppActivity extends Activity {
                             + "Quality = %s\n", hr, event.getQuality()));
 
                     heartRate = ""+hr;
-                    mConnectedThread.write(heartRate.getBytes());
-                    Log.i(TAG,"HR updated!");
+					if(mConnectedThread != null) {
+                   		mConnectedThread.write(heartRate.getBytes());
+                    	Log.i(TAG,"HR updated!");
+					}
+
                 }
             }
         };
@@ -308,6 +316,13 @@ public class BandHeartRateAppActivity extends Activity {
 //                mHandler.obtainMessage(Constants.MESSAGE_WRITE, -1, -1, buffer)
 //                        .sendToTarget();
 			} catch (IOException e) {
+				try {
+					mmSocket.close();
+				} catch (Exception f) {
+
+				}
+				mConnectThread = null;
+				mConnectedThread = null;
 				Log.e(TAG, "Exception during write", e);
 			}
 		}
